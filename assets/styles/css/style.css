@@ -1,0 +1,55 @@
+.card .card-header {
+    background: #fff;
+}
+
+.card .card-header:not([class*="header-"]) {
+    box-shadow: rgba(0, 0, 0, 0.14902) 0px 8px 16px 0px;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.section {
+    padding: 30px 0;
+}
+
+.home-header-img {
+    background-image: url("../../img/black-and-white-factory-hand-355135.jpg"); 
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.about-header-img {
+    background-image: url("../../img/build-builder-concrete-38600.jpg"); 
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.employer-header-img {
+    background-image: url("../../img/action-adult-blur-355155.jpg"); 
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.employee-header-img {
+    background-image: url("../../img/car-drive-driver-1579008.jpg"); 
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.visa-header-img {
+    background-image: url("../../img/action-cement-construction-2219024.jpg"); 
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.faq-header-img {
+    background-image: url("../../img/construction-helmet-industry-1216589.jpg"); 
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.contact-header-img {
+    background-image: url("../../img/connection-contact-focus-955081.jpg"); 
+    transform: translate3d(0px, 0px, 0px);
+}
+
+.header-title {
+    font-size: 20px;
+}
