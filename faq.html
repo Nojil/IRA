@@ -1,185 +1,893 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>IRA</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+      name="viewport"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <!--     Fonts and icons     -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"
+    />
+    <!-- Material Kit CSS -->
+    <link href="./assets/styles/css/material-kit.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/styles/css/style.css" />
 
-<head>
-  <title>IRA</title>
-  <!-- Required meta tags -->
-  <meta charset="utf-8" />
-  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <!--     Fonts and icons     -->
-  <link rel="stylesheet" type="text/css"
-    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
-  <!-- Material Kit CSS -->
-  <link href="./assets/styles/css/material-kit.css" rel="stylesheet" />
-  <link rel="stylesheet" href="./assets/styles/css/style.css">
-</head>
+    <script src="https://kit.fontawesome.com/24e19f207c.js"></script>
+  </head>
 
-<body>
-  <nav class="navbar navbar-color-on-scroll fixed-top navbar-expand-lg navbar-transparent" color-on-scroll="100"
-    id="sectionsNav">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">IRA</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="navbar-toggler-icon"></span>
-        <span class="navbar-toggler-icon"></span>
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About Us </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="employers.html">Employers </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="employees.html">Employees </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="visa.html">Visa Info </a>
-          </li>
-        </ul>
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item pull-right active">
-            <a class="nav-link" href="faq.html">FAQ <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item pull-right">
-            <a class="nav-link" href="contact.html">Contact Us</a>
-          </li>
-
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <div class="page-header header-filter clear-filter faq-header-img" data-parallax="true"
+  <body>
+    <nav
+      class="navbar navbar-color-on-scroll fixed-top navbar-expand-lg navbar-transparent"
+      color-on-scroll="100"
+      id="sectionsNav"
     >
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 ml-auto mr-auto">
-          <div class="brand">
-            <h1>Frequently Asked Questions</h1>
-            <h3>We are a company that brings workers around the globe, to help American companies overcome the challenge
-              of constant labor shortages and increase worker retention rates.</h3>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="main main-raised">
-    <div class="section section-basic">
       <div class="container">
-        <div class="row mb-5">
-          <div class="col">
-            <h1>Frequently Asked Questions</h1>
+        <a class="navbar-brand" href="index.html">IRA</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="sr-only">Toggle navigation</span>
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About Us </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="employers.html">Employers </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="employees.html">Employees </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="visa.html">Visa Info </a>
+            </li>
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item pull-right active">
+              <a class="nav-link" href="faq.html"
+                >FAQ <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item pull-right">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div
+      class="page-header header-filter clear-filter faq-header-img"
+      data-parallax="true"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto">
+            <div class="brand">
+              <h1>Frequently Asked Questions</h1>
+              <h3>
+                We are a company that brings workers around the globe, to help
+                American companies overcome the challenge of constant labor
+                shortages and increase worker retention rates.
+              </h3>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col">
-            <div class="accordion" id="accordionExample">
-              <div class="card">
-                <div class="card-header mx-0 p-0" id="headingOne">
-                  <h5 class="my-0">
-                    <button class="btn btn-link w-100 text-left py-4 my-0" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua?
-                    </button>
-                  </h5>
-                </div>
-            
-                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                  <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+
+    <div class="main main-raised">
+      <div class="section section-basic">
+        <div class="container">
+          <div class="row mb-5">
+            <div class="col">
+              <h1>Frequently Asked Questions</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header mx-0 p-0" id="headingOne">
+                    <h5 class="my-0">
+                      <button
+                        class="btn btn-link w-100 text-left py-4 my-0"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#collapseOne"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        What are common H2 Visa job codes?<i
+                          class="far fa-plus-square pull-right fa-2x"
+                        ></i>
+                      </button>
+                    </h5>
+                  </div>
+
+                  <div
+                    id="collapseOne"
+                    class="collapse"
+                    aria-labelledby="headingOne"
+                    data-parent="#accordionExample"
+                  >
+                    <div class="card-body">
+                      <ul>
+                        <li>
+                          45-2092.00 Farmworkers and Laborers, Crop, Nursery,
+                          and Greenhouse
+                        </li>
+                        <li>45-2092.01 Nursery Workers</li>
+                        <li>45-2092.02 Farmworkers and Laborers, Crop</li>
+                        <li>45-2091.00 Agricultural Equipment Operators</li>
+                        <li>
+                          45-2093.00 Farmworkers, Farm, Ranch, and Aquacultural
+                          Animals
+                        </li>
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <div class="accordion" id="accordionExample">
-              <div class="card">
-                <div class="card-header mx-0 p-0" id="headingOne">
-                  <h5 class="my-0">
-                    <button class="btn btn-link w-100 text-left py-4 my-0" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseOne">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua?
-                    </button>
-                  </h5>
-                </div>
-            
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                  <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          <div class="row">
+            <div class="col">
+              <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header mx-0 p-0" id="headingOne">
+                    <h5 class="my-0">
+                      <button
+                        class="btn btn-link w-100 text-left py-4 my-0"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#collapseTwo"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        What deductions come out of my H2 worker’s paychecks? Do
+                        they pay taxes?<i
+                          class="far fa-plus-square pull-right fa-2x"
+                        ></i>
+                      </button>
+                    </h5>
+                  </div>
+
+                  <div
+                    id="collapseTwo"
+                    class="collapse"
+                    aria-labelledby="headingOne"
+                    data-parent="#accordionExample"
+                  >
+                    <div class="card-body">
+                      <p>
+                        Your H2 workers will have the same taxes and deductions
+                        made from their paychecks as any domestic worker would.
+                        <em>So yes, they do pay taxes! </em>Here’s a helpful
+                        link that will help with deductions and fees you cannot
+                        charge to your workers!
+                      </p>
+                      <p>
+                        Learn more
+                        <a
+                          href="https://www.dol.gov/WHD/regs/compliance/whdfs78d.htm"
+                          >here</a
+                        >.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <div class="accordion" id="accordionExample">
-              <div class="card">
-                <div class="card-header mx-0 p-0" id="headingOne">
-                  <h5 class="my-0">
-                    <button class="btn btn-link w-100 text-left py-4 my-0" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseOne">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua?
-                    </button>
-                  </h5>
-                </div>
-            
-                <div id="collapseThree" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                  <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          <div class="row">
+            <div class="col">
+              <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header mx-0 p-0" id="headingOne">
+                    <h5 class="my-0">
+                      <button
+                        class="btn btn-link w-100 text-left py-4 my-0"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#collapseThree"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        Do the H2 workers make minimum wage?<i
+                          class="far fa-plus-square pull-right fa-2x"
+                        ></i>
+                      </button>
+                    </h5>
+                  </div>
+
+                  <div
+                    id="collapseThree"
+                    class="collapse"
+                    aria-labelledby="headingOne"
+                    data-parent="#accordionExample"
+                  >
+                    <div class="card-body">
+                      <p>
+                        <strong>H2B</strong> workers will be issued a wage from
+                        the wage determination given by the Department of Labor.
+                        These wages are determined per county and job code. You
+                        can find your specific counties wages
+                        <a
+                          href="http://www.flcdatacenter.com/OesWizardStart.aspx"
+                          >here</a
+                        >.
+                      </p>
+                      <p>
+                        <strong>H2A</strong> workers wages will be determined by
+                        the determined AEWR wage for each state. You can find
+                        the list of wages
+                        <a
+                          href="https://www.foreignlaborcert.doleta.gov/pdf/AEWR/AEWR_Map_2018.pdf"
+                          >here</a
+                        >.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <div class="accordion" id="accordionExample">
-              <div class="card">
-                <div class="card-header mx-0 p-0" id="headingOne">
-                  <h5 class="my-0">
-                    <button class="btn btn-link w-100 text-left py-4 my-0" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseOne">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua?
-                    </button>
-                  </h5>
-                </div>
-            
-                <div id="collapseFour" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                  <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+          <div class="row">
+            <div class="col">
+              <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header mx-0 p-0" id="headingOne">
+                    <h5 class="my-0">
+                      <button
+                        class="btn btn-link w-100 text-left py-4 my-0"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#collapseFour"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        What do you mean by “job code?”<i
+                          class="far fa-plus-square pull-right fa-2x"
+                        ></i>
+                      </button>
+                    </h5>
+                  </div>
+
+                  <div
+                    id="collapseFour"
+                    class="collapse"
+                    aria-labelledby="headingOne"
+                    data-parent="#accordionExample"
+                  >
+                    <div class="card-body">
+                      <p>
+                        DOL will classify the work you do into specific job
+                        codes. They are countless of job codes to look through,
+                        but there can only be <em>ONE </em>job code per
+                        application.
+                      </p>
+                      <p>
+                        <strong>FOR EXAMPLE:</strong> if you own a hotel and you
+                        need housekeepers, dishwashers, and an outdoor
+                        maintenance crew, you would need to file three separate
+                        applications for those three very different jobs.
+                      </p>
+                      <p>
+                        Each job code has different wages, and with each
+                        application, we have to explain the seasonality and need
+                        for the occupation within your business. It would be
+                        impossible to put three very different types of jobs
+                        onto one singular application.
+                      </p>
+                      <p>
+                        You can search various occupational codes
+                        <a href="https://www.onetonline.org/">here</a>.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <div class="accordion" id="accordionExample">
-              <div class="card">
-                <div class="card-header mx-0 p-0" id="headingOne">
-                  <h5 class="my-0">
-                    <button class="btn btn-link w-100 text-left py-4 my-0" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseOne">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua?
-                    </button>
-                  </h5>
+          <div class="row">
+            <div class="col">
+              <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header mx-0 p-0" id="headingOne">
+                    <h5 class="my-0">
+                      <button
+                        class="btn btn-link w-100 text-left py-4 my-0"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#collapseFive"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        What about my current employees? Do they have to make
+                        the same as my foreign workers?<i
+                          class="far fa-plus-square pull-right fa-2x"
+                        ></i>
+                      </button>
+                    </h5>
+                  </div>
+
+                  <div
+                    id="collapseFive"
+                    class="collapse"
+                    aria-labelledby="headingOne"
+                    data-parent="#accordionExample"
+                  >
+                    <div class="card-body">
+                      <p>
+                        Department of Labor (Wage and Hour Division) has a
+                        regulation concerning “corresponding employment.” This
+                        means that any non-H2 worker employed by an employer
+                        that has a certified application who performs
+                        substantially the
+                        <em>same work as the foreign worker </em>have at least
+                        the same protections and benefits as those offered or
+                        provided to an H2 worker.
+                      </p>
+                      <p>
+                        You can see the full explanation
+                        <a
+                          href="https://www.dol.gov/whd/regs/compliance/whdfs78a.pdf"
+                          >here</a
+                        >.
+                      </p>
+
+                      <p>
+                        In short, yes,
+                        <em
+                          >any current, domestic workers you have doing the same
+                          work as the foreign workers have to make at least the
+                          same wage.
+                        </em>
+                      </p>
+                    </div>
+                  </div>
                 </div>
-            
-                <div id="collapseFive" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
-                  <div class="card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header mx-0 p-0" id="headingOne">
+                    <h5 class="my-0">
+                      <button
+                        class="btn btn-link w-100 text-left py-4 my-0"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#collapseSix"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        What about taxes?<i
+                          class="far fa-plus-square pull-right fa-2x"
+                        ></i>
+                      </button>
+                    </h5>
+                  </div>
+
+                  <div
+                    id="collapseSix"
+                    class="collapse"
+                    aria-labelledby="headingOne"
+                    data-parent="#accordionExample"
+                  >
+                    <div class="card-body">
+                      <p>
+                        Foreign workers are required to fill out an I-9 Form,
+                        and W-4 Form. Foreign workers are required to pay the
+                        same taxes as your U.S workers.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header mx-0 p-0" id="headingOne">
+                    <h5 class="my-0">
+                      <button
+                        class="btn btn-link w-100 text-left py-4 my-0"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#collapseEight"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        What are my responsibilities as an H2 employer?<i
+                          class="far fa-plus-square pull-right fa-2x"
+                        ></i>
+                      </button>
+                    </h5>
+                  </div>
+
+                  <div
+                    id="collapseEight"
+                    class="collapse"
+                    aria-labelledby="headingOne"
+                    data-parent="#accordionExample"
+                  >
+                    <div class="card-body">
+                      <p>
+                        <strong
+                          >Here’s a list of obligations all H2 employers are
+                          required to abide by:</strong
+                        >
+                      </p>
+                      <ul>
+                        <li>
+                          Must provide/reimburse the worker for
+                          transport/subsistence from the worker’s home to the
+                          worksite You are required to pay for inbound and
+                          outbound transportation, daily subsistence, and
+                          lodging for the time workers (U.S. and Foreign) are
+                          traveling to the starting worksite location from their
+                          home. On average, it is a 3-day traveling timeframe.
+                          The subsistence rate is updated intermittently
+                          throughout the program (currently $12.26 per day, up
+                          to $51.00 per day with receipts). You are only
+                          required to pay for the most reasonable and economic
+                          mode of transportation and housing.
+                          Transportation/subsistence/necessary lodging AND visa,
+                          visa processing, border crossing fees (not including
+                          passport) are to be prearranged/paid for
+                          <em>OR </em>reimbursed via check no later than the
+                          first workweek.
+                        </li>
+                        <li>
+                          This is also true for outbound transportation: if the
+                          worker has no immediate plans to work for another H2
+                          employer, then the employer must provide transport and
+                          subsistence back to the workers original starting
+                          location. Read more
+                          <a
+                            href="https://www.dol.gov/WHD/regs/compliance/whdfs78f.htm"
+                            >here</a
+                          >
+                          that further goes into detail about these expenses.
+                        </li>
+                        <li>
+                          3/4 guarantee: Beginning on the first day the worker
+                          arrives, the worker is guaranteed work hours equal to
+                          at least 75% of the workdays in each 12-week period (6
+                          weeks for a short season of less than 120 days) and
+                          ending on your certified end date. Read more
+                          <a
+                            href="https://www.dol.gov/WHD/regs/compliance/whdfs78e.htm"
+                            >here</a
+                          >
+                          further explains the 3⁄4 guarantee.
+                        </li>
+                      </ul>
+                      <p>
+                        <strong
+                          >Keep accurate records in regards to pay and
+                          earnings:&nbsp;</strong
+                        >Each worker must be given a pay stub showing hours
+                        offered, hours actually worked, hourly rate and/or
+                        piece-rate of pay, and, if piece-rates are used, the
+                        number of units produced daily. The pay stub must also
+                        indicate total earnings for the pay period and all
+                        deductions from wages.
+                      </p>
+                      <p>
+                        <strong
+                          >These must be provided to workers without charge or
+                          deposit:</strong
+                        >
+                        all tools, supplies, and equipment required to perform
+                        the duties assigned. This means that you cannot charge
+                        workers for uniforms or any of the tools required for
+                        the job.
+                      </p>
+                      <p>
+                        <strong
+                          >The employer must post a DOL-provided poster in
+                          English</strong
+                        >
+                        detailing H-2B and corresponding workers’ rights and
+                        protections in a conspicuous location at each worksite.
+                        The employer must post additional posters if a
+                        significant portion of workers are not fluent in English
+                        and if DOL provides the poster translated into their
+                        language. The key to this is CORRESPONDING EMPLOYMENT.
+                        Anything that is provided to an H2B worker must also be
+                        provided to the US worker doing the same/similar duties.
+                      </p>
+
+                      <p>
+                        Click
+                        <a
+                          href="https://www.dol.gov/whd/posters/pdf/H2B-eng.pdf"
+                          >here</a
+                        >
+                        for current English poster.
+                      </p>
+                      <p>
+                        Click
+                        <a
+                          href="https://www.dol.gov/whd/posters/pdf/H2B-span.pdf"
+                          >here</a
+                        >
+                        for current Spanish poster.
+                      </p>
+                      <p>
+                        <strong>Record Retention:</strong> All documents must be
+                        kept for at least 3 years! Click
+                        <a
+                          href="https://www.dol.gov/WHD/regs/compliance/whdfs78i.htm"
+                          >here</a
+                        >
+                        to read more on record retention from DOL.
+                      </p>
+
+                      <p>
+                        The <strong>FULL LIST </strong>is available on DOL’s
+                        website
+                        <a
+                          href="https://www.dol.gov/whd/regs/compliance/whdfs78.htm"
+                          >here</a
+                        >.
+                      </p>
+                      <p>
+                        These are just the obligations that come with the most
+                        questions.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header mx-0 p-0" id="headingOne">
+                    <h5 class="my-0">
+                      <button
+                        class="btn btn-link w-100 text-left py-4 my-0"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#collapseNine"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        What if one of my foreign workers quit? Am I still
+                        required to pay for the transport and subsistence back?
+                        <i class="far fa-plus-square pull-right fa-2x"></i>
+                      </button>
+                    </h5>
+                  </div>
+
+                  <div
+                    id="collapseNine"
+                    class="collapse"
+                    aria-labelledby="headingOne"
+                    data-parent="#accordionExample"
+                  >
+                    <div class="card-body">
+                      <p>
+                        You are not required to provide outbound transport and
+                        subsistence if the worker abandons the job completely
+                        before the end of the period of employment certified on
+                        the application. However, if they are fired, dismissed,
+                        or quit <em>WITHOUT </em>abandonment, you are still
+                        required to pay for the travel back to their point of
+                        recruitment (typically their home).
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header mx-0 p-0" id="headingOne">
+                    <h5 class="my-0">
+                      <button
+                        class="btn btn-link w-100 text-left py-4 my-0"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#collapseTen"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        One of my workers went MIA! What do I do?
+                        <i class="far fa-plus-square pull-right fa-2x"></i>
+                      </button>
+                    </h5>
+                  </div>
+
+                  <div
+                    id="collapseTen"
+                    class="collapse"
+                    aria-labelledby="headingOne"
+                    data-parent="#accordionExample"
+                  >
+                    <div class="card-body">
+                      <p>
+                        Unfortunately, this program, like most things, isn’t
+                        perfect, and you will always have people try to take
+                        advantage of a good opportunity. If you have a worker
+                        that is no longer showing up to work, has not contacted
+                        you, and you have no idea where they are, it is your
+                        duty as the employer to report them to both the
+                        Department of Homeland Security and the Department of
+                        Labor.
+                      </p>
+                      <p>
+                        If this happens to you, please reach out to us. We can
+                        get you the appropriate templates and contact
+                        information for the respective government agencies to
+                        report to.
+                      </p>
+                      <p>
+                        Depending on when the worker absconds, we could
+                        potentially bring in another worker to fill that spot.
+                        However, if too much time has passed and you have no
+                        other visas available, we may not be able to replace the
+                        worker at all.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header mx-0 p-0" id="headingOne">
+                    <h5 class="my-0">
+                      <button
+                        class="btn btn-link w-100 text-left py-4 my-0"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#collapseEleven"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        Are we responsible for housing the workers?
+                        <i class="far fa-plus-square pull-right fa-2x"></i>
+                      </button>
+                    </h5>
+                  </div>
+
+                  <div
+                    id="collapseEleven"
+                    class="collapse"
+                    aria-labelledby="headingOne"
+                    data-parent="#accordionExample"
+                  >
+                    <div class="card-body">
+                      <p>
+                        <strong>H2A<br /> </strong>Yes, you are required to
+                        house the workers at no cost to the foreign workers and
+                        the workers in corresponding employment who cannot
+                        reasonably return home at the end of the day. H-2A
+                        employers are also required to provide three meals per
+                        day or to furnish free and convenient cooking/kitchen
+                        facilities where meals can be prepared.
+                      </p>
+                      <p>
+                        Learn more
+                        <a
+                          href="https://www.dol.gov/whd/regs/compliance/whdfs26.htm"
+                          >here</a
+                        >.
+                      </p>
+                      <p>
+                        <strong
+                          >H2B (all industries other than forestry/carnival)<br /> </strong
+                        >No, you are not required to provide housing, but you
+                        must assist in helping them find housing. Whether that
+                        be setting up hotels or a space they can rent, the
+                        workers will likely need assistance finding somewhere to
+                        live. Unlike H-2A, you do not have to provide meals or a
+                        kitchen.
+                      </p>
+                      <p>
+                        <strong>H2B (Forestry/Carnival)<br /> </strong>Yes, all
+                        forestry and carnival type employers are required to pay
+                        housing throughout the duration of the job because it is
+                        seen as a benefit to the employer due to the nature of a
+                        mobile workforce. These employers are not required to
+                        cover or provide meal costs during the duration of the
+                        job like an H2A employer would.
+                      </p>
+                      <p>
+                        Lean more
+                        <a
+                          href="https://www.dol.gov/whd/immigration/H2BFinalRule/H-2B_NPRM.pdf"
+                          >here</a
+                        >
+                        on page 117.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header mx-0 p-0" id="headingOne">
+                    <h5 class="my-0">
+                      <button
+                        class="btn btn-link w-100 text-left py-4 my-0"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#collapseTwelve"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        Can these workers stay and work for me year-round?
+                        <i class="far fa-plus-square pull-right fa-2x"></i>
+                      </button>
+                    </h5>
+                  </div>
+
+                  <div
+                    id="collapseTwelve"
+                    class="collapse"
+                    aria-labelledby="headingOne"
+                    data-parent="#accordionExample"
+                  >
+                    <div class="card-body">
+                      <p>
+                        <em>No, the workers cannot work for you year-round. </em
+                        >The H2 programs are roughly 9-10-month SEASONAL
+                        programs. We absolutely must be able to prove you have a
+                        definitive peak load, true seasonal, a one-time
+                        occurrence, or intermittent need during the time frame
+                        in which you are requesting workers. This is a process
+                        you do have to repeat each year that you want to receive
+                        visas.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="accordion" id="accordionExample">
+                <div class="card">
+                  <div class="card-header mx-0 p-0" id="headingOne">
+                    <h5 class="my-0">
+                      <button
+                        class="btn btn-link w-100 text-left py-4 my-0"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#collapseThirteen"
+                        aria-expanded="true"
+                        aria-controls="collapseOne"
+                      >
+                        How do I know what kind of seasonal employer I am?
+                        <i class="far fa-plus-square pull-right fa-2x"></i>
+                      </button>
+                    </h5>
+                  </div>
+
+                  <div
+                    id="collapseThirteen"
+                    class="collapse"
+                    aria-labelledby="headingOne"
+                    data-parent="#accordionExample"
+                  >
+                    <div class="card-body">
+                      <p>
+                        Here are the different definitions in regards to the
+                        <em>4 different ways you can be seasonal: </em>
+                      </p>
+                      <ol>
+                        <li>
+                          Seasonal employers typically have a definitive
+                          off-season where there is absolutely no work being
+                          done and is dictated by specific weather patterns and
+                          recurrent in nature.
+                        </li>
+                      </ol>
+                      <p>
+                        <strong>EXAMPLE:</strong> A landscaper owns a business
+                        in North Dakota. During the spring and summer months,
+                        his crew mows both residential and commercial properties
+                        until the end of October. His business is completely
+                        shut down from November through the end of February due
+                        to snow. He will begin mowing again in the spring
+                        (March) when the snow has melted.
+                      </p>
+                      <ol start="2">
+                        <li>
+                          Peak Load employers are typically those that are open
+                          all 12 months of the year. There is a spike, or a
+                          peak, in the employer’s season where it becomes
+                          extremely busy compared to the downtime. Workers can
+                          only be requested during this peak time.
+                        </li>
+                      </ol>
+                      <p>
+                        <strong>EXAMPLE:</strong> A landscaper owns a business
+                        in North Dakota. During the spring and summer months,
+                        his crew mows both residential and commercial properties
+                        until the end of October. This time of year, generates
+                        the most revenue for his business. He continues to
+                        perform snow removal throughout the winter and he has
+                        laid off a majority of his spring staff. A smaller,
+                        integral crew remains on for the winter to perform snow
+                        removal duties and whatever else might pop up. He will
+                        begin mowing again in the spring (March) when the snow
+                        has melted and all his laid off workers will return to
+                        work.
+                      </p>
+                      <ol start="3">
+                        <li>
+                          Intermittent employers are rare in this program. To
+                          qualify an employer as having an intermittent need,
+                          they must not have employed permanent or full-time
+                          workers to perform the service or labor, but
+                          occasionally needs temporary workers to provide that
+                          service or labor for a short period of time.
+                        </li>
+                      </ol>
+                      <p>
+                        <strong>EXAMPLE:</strong> a company produces limited
+                        edition porcelain ware to commemorate a special event,
+                        but only from time to time and not on a fixed schedule.
+                      </p>
+                      <ol start="4">
+                        <li>
+                          A One-Time Occurrence employer would require you to
+                          show that you have not employed workers to perform the
+                          services or labor in the past, and the petitioner will
+                          not need workers to perform this in the future, or
+                          there is an employment situation that is otherwise
+                          permanent, but a temporary event of short duration has
+                          created a need for temporary workers.
+                        </li>
+                      </ol>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -188,54 +896,73 @@
         </div>
       </div>
     </div>
-  </div>
 
-  <footer class="footer">
-    <div class="container">
-      <div class="row my-5">
-        <div class="col d-flex justify-content-center">
-          <img src="./assets/img/logo.jpg" />
+    <footer class="footer">
+      <div class="container">
+        <div class="row my-5">
+          <div class="col d-flex justify-content-center">
+            <img src="./assets/img/logo.jpg" />
+          </div>
+          <div class="col">
+            <div
+              class="d-flex flex-column justify-content-left text-left ml-5 "
+            >
+              <h3>Contact Info:</h3>
+              <p><span>Phone:</span> 808-384-4517</p>
+              <p><span>Fax:</span> 303-639-2600</p>
+              <p>
+                <span>Email:</span>
+                <a href="mailto:international@recruitingagencys.com"
+                  >international@recruitingagencys.com</a
+                >
+              </p>
+              <p>
+                <span>Address:</span> 17443 Nature Walk Trail 302 Parker, CO
+                80134
+              </p>
+            </div>
+          </div>
         </div>
-        <div class="col">
-          <div class="d-flex flex-column justify-content-left text-left ml-5 ">
-            <h3>Contact Info:</h3>
-            <p><span>Phone:</span> 808-384-4517</p>
-            <p><span>Fax:</span> 303-639-2600</p>
-            <p>
-              <span>Email:</span>
-              <a href="mailto:international@recruitingagencys.com">international@recruitingagencys.com</a>
-            </p>
-            <p>
-              <span>Address:</span> 17443 Nature Walk Trail 302 Parker, CO
-              80134
-            </p>
+        <div class="row mt-3">
+          <div class="col">
+            <span class="text-muted"
+              >©2019 International Recruiting Agency. All rights reserved.</span
+            >
           </div>
         </div>
       </div>
-      <div class="row mt-3">
-        <div class="col">
-          <span class="text-muted">©2019 International Recruiting Agency. All rights reserved.</span>
-        </div>
-      </div>
-    </div>
-  </footer>
+    </footer>
 
-  <!--   Core JS Files   -->
-  <script src="assets/js/core/jquery.min.js" type="text/javascript"></script>
-  <script src="assets/js/core/popper.min.js" type="text/javascript"></script>
-  <script src="assets/js/core/bootstrap-material-design.min.js" type="text/javascript"></script>
-  <script src="assets/js/plugins/moment.min.js"></script>
-  <!--	Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
-  <script src="assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
-  <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
-  <script src="assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
-  <!--  Google Maps Plugin  -->
-  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
-  <!-- Place this tag in your head or just before your close body tag. -->
-  <script async defer src="https://buttons.github.io/buttons.js"></script>
-  <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
-  <script src="assets/js/material-kit.js?v=2.0.5" type="text/javascript"></script>
-  <script src="./assets/js/scripts.js" type="text/javascript"></script>
-</body>
-
+    <!--   Core JS Files   -->
+    <script src="assets/js/core/jquery.min.js" type="text/javascript"></script>
+    <script src="assets/js/core/popper.min.js" type="text/javascript"></script>
+    <script
+      src="assets/js/core/bootstrap-material-design.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="assets/js/plugins/moment.min.js"></script>
+    <!--	Plugin for the Datepicker, full documentation here: https://github.com/Eonasdan/bootstrap-datetimepicker -->
+    <script
+      src="assets/js/plugins/bootstrap-datetimepicker.js"
+      type="text/javascript"
+    ></script>
+    <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+    <script
+      src="assets/js/plugins/nouislider.min.js"
+      type="text/javascript"
+    ></script>
+    <!--  Google Maps Plugin  -->
+    <script
+      type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"
+    ></script>
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+    <!-- Control Center for Material Kit: parallax effects, scripts for the example pages etc -->
+    <script
+      src="assets/js/material-kit.js?v=2.0.5"
+      type="text/javascript"
+    ></script>
+    <script src="./assets/js/scripts.js" type="text/javascript"></script>
+  </body>
 </html>
