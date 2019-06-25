@@ -50,6 +50,11 @@
     transform: translate3d(0px, 0px, 0px);
 }
 
+.error-header-img {
+    background-image: url("../../img/404.png"); 
+    transform: translate3d(0px, 0px, 0px);
+}
+
 .header-title {
     font-size: 20px;
 }
