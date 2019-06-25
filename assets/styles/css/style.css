@@ -53,3 +53,7 @@
 .header-title {
     font-size: 20px;
 }
+
+.info .icon a > i {
+    font-size: 3.85rem;
+}
