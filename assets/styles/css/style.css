@@ -16,7 +16,7 @@
 }
 
 .home-header-img {
-    background-image: url("../../img/home.jpeg"); 
+    background-image: url("../../img/home.jpg"); 
     transform: translate3d(0px, 0px, 0px);
 }
 
@@ -61,4 +61,8 @@
 
 .info .icon a > i {
     font-size: 3.85rem;
+}
+
+.fontPageImg {
+    height: 284.609px !important;
 }
